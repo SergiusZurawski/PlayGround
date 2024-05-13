@@ -4,16 +4,14 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>29ee6f82-d059-42af-9b3b-9aac540b7185</UserSecretsId>
+    <UserSecretsId>243fc8f8-3fa4-4118-b8f3-b2f6e97089ba</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
-    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.34.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.30.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.6" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.30.0" />
   </ItemGroup>
 

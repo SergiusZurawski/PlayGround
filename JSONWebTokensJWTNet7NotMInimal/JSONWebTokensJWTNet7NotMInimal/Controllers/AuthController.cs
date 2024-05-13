@@ -52,6 +52,7 @@ namespace JSONWebTokensJWTNet7NotMInimal.Controllers
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration.GetSection("AppSettings:Token").Value!));
+            //var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration.GetSection("Authentication:Schemes:Bearer:SigningKeys:0:Value").Value!));
 
             var cred = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
 
